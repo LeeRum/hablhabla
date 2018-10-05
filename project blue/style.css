@@ -1,0 +1,186 @@
+
+
+h1 {
+	position: relative;	
+  font-size: 150%;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  background: rgb(220,160,140);
+  background: rgba(220,160,140,0);
+  color: black;
+  text-decoration: underline;
+}
+
+h2 {
+  position: absolute;	
+  font-size: 150%;
+  font-style: italic;
+  font-family: "Arial Black", Gadget, serif;
+  color: black;
+  left: 40px;
+  top: -250px;
+  text-decoration: underline;
+  
+}
+
+
+.rotate90 {
+  position: relative;
+  top: 610px;
+  left:-600px;
+  transform:rotate(90deg);
+ -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+}
+
+.rotate180 {
+  position: relative;
+  top: -30px;
+  left: -1150px;
+  transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+}
+
+.tolerance {
+  border-style: groove;
+  border-color: blue;
+}
+p.backside {
+  background-color: cyan; 
+  color: black;
+
+}
+
+
+nav li {
+
+  display: inline-flex;
+
+}
+
+
+p.index {
+
+  color: blue;
+  font-style: italic;
+  font-family: "Arial Black", Gadget, serif;
+  font-size: 100%;
+  top: 15em;
+  left: 5em;
+}
+
+p.outwardtravel {
+  
+  color: green;
+  font-style: italic;
+  font-family: Impact, Charcoal, serif;
+  font-size: 100%;
+  top: 15em;
+  left: 5em;  
+}
+
+p.skansen {
+  
+  font-style: italic;
+  font-family: "Lucida Console", Monca, serif;
+  font-size: 100%;	
+  color: blue;
+  top: 15em;
+  left: 5em;   
+}
+
+p.sandhamn {
+  
+  color: black;
+  font-style: italic;
+  font-family: "Comic sans MS", cursive, serif;
+  font-size: 100%;		
+  top: 15em;
+  left: 5em;   
+}
+
+p.city {
+
+  color: cyan;
+  font-style: italic;
+  font-size: 100%;
+  font-family: "Comic sans MS", cursive, serif;
+  top: 15em;
+  left: 5em;
+
+}
+
+
+p {
+	color: grey;
+	font-style: italic;
+  text-align: center;
+	font-family:"Comic sans MS", cursive, serif;
+	font-size: medium;
+	margin: 30px;
+	border-style: groove;
+	border-color: red;
+	border-width: 5px;
+
+}
+
+/*div {
+  border-style: groove;
+  border-color: blue;
+  color: pink;
+  font-style: italic;
+  text-align: center;
+  font-size: medium;
+  font-family: "Comic", cursive, serif;
+}*/
+
+
+body {
+
+padding:3em 0 7em;
+
+background-image: url("picture/Flagge_Schweden.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+
+}
+
+header {
+  padding: 10px 16px;
+  background: blue;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky.content {
+  padding-top: 102px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+footer {  
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
