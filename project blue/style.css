@@ -122,10 +122,10 @@ p.city {
 
 
 p {
-	color: grey;
+	color: blue;
 	font-style: italic;
   text-align: center;
-	font-family:"Comic sans MS", cursive, serif;
+	font-family:"Comic", cursive, serif;
 	font-size: medium;
 	margin: 30px;
 	border-style: groove;
