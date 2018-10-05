@@ -49,7 +49,12 @@ h2 {
 .tolerance {
   border-style: groove;
   border-color: blue;
-}
+  color: blue;
+  font-style: italic;
+  font-family: "Comic", cursive,serif;
+  }
+
+
 p.backside {
   background-color: cyan; 
   color: black;
